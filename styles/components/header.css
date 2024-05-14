@@ -53,9 +53,13 @@
     color: var(--primary-d-7);
 }
 
+.mobile-header__logo:focus-visible {
+    border: 3px solid orange;
+}
+
 .mobile-header__hamburger:has(.mobile-header__checkbox:checked) {
     --hamburger-forefround: var(--primary);
-    --hamburger-background: var(--primary-d-5);
+    --hamburger-background: var(--primary-d-6);
 }
 
 .mobile-header__hamburger:has(.mobile-header__checkbox:focus-visible)::before,
